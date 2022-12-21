@@ -1,0 +1,300 @@
+body {
+    margin: 0px;
+}
+
+/* Section 1 navbar */
+
+.main_section1 {
+    /* border: 3px solid navy; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    /* position: fixed; */
+}
+
+.logo_div img {
+    width: 150px;
+    /* border: 3px solid navy; */
+}
+
+.menu_div ul li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.menu_div ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: thin;
+    padding-bottom: 8px;
+
+}
+
+.menu_div ul li a:hover {
+    /* color: #8071D0; */
+    /* text-decoration: underline; */
+
+    border-bottom: 3px solid #8071D0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+}
+
+.menu_div ul {
+    display: flex;
+    /* border: 3px solid navy; */
+    padding: 0px;
+}
+
+.main_section1 .button_div button {
+    color: #A389CC;
+    background-color: #FFD8DB;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+/* SECTION! END */
+
+
+/* Background img */
+
+.img_style {
+    float: right;
+    height: 700px;
+    width: 700px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+/* Background img end */
+
+
+/* SECTION2 */
+
+
+.section2 {
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 180px;
+    /* border: 1px solid red; */
+    /* margin-right: 700px; */
+}
+
+
+.section2 h1 {
+    font-size: 60px;
+    /* border: 1px solid red; */
+    padding-bottom: 10px;
+}
+
+.section2 .text::after {
+    display: inline-block;
+    content: '';
+    /* border: 1px solid red; */
+    height: 10px;
+    width: 10px;
+    background-image: linear-gradient(90deg, blue, blue);
+}
+
+.section2_div {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+
+.section2 .section2_div button {
+    color: #fff;
+    background-color: #5243C0;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+
+.section2 .section2_div img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* Section2 END */
+
+
+/* Section3 div */
+
+
+.section3 {
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 750px;
+}
+
+.section3 .container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 .container1 .container_text1::before {
+    content: url('./Assignment_ Stunning-Project/tick-gray.png');
+    margin-right: 20px;
+}
+
+.section3 .container1 .container_text1:hover::before {
+    content: url('./Assignment_ Stunning-Project/tick-blue.png');
+
+}
+
+
+.section3 .container1 .container_text1::after {
+    content: url('./Assignment_ Stunning-Project/user-pink.png');
+    margin-left: 30px;
+}
+
+
+.container_text1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container_btn1 {
+    height: 15px;
+    width: 30px;
+    background-color: #FED7DA;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+
+
+
+.section3 .container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 .container2 .container_text2::before {
+    content: url('./Assignment_ Stunning-Project/tick-gray.png');
+    margin-right: 20px;
+}
+
+.section3 .container2 .container_text2:hover::before {
+    content: url('./Assignment_ Stunning-Project/tick-blue.png');
+
+}
+
+
+.section3 .container2 .container_text2::after {
+    content: url('./Assignment_ Stunning-Project/user-orange.png');
+    margin-left: 15px;
+}
+
+
+.container_text2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container_btn2 {
+    height: 15px;
+    width: 30px;
+    background-color: #FD6534;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.section3 .container3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 .container3 .container_text3::before {
+    content: url('./Assignment_ Stunning-Project/tick-gray.png');
+    margin-right: 20px;
+}
+
+.section3 .container3 .container_text3:hover::before {
+    content: url('./Assignment_ Stunning-Project/tick-blue.png');
+
+}
+
+
+.section3 .container3 .container_text3::after {
+    content: url('./Assignment_ Stunning-Project/user-blue.png');
+    margin-left: 45px;
+}
+
+
+.container_text3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container_btn3 {
+    height: 15px;
+    width: 30px;
+    background-color: #9ED095;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+
+
+
+.section3 .container4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section3 .container4 .container_text4::before {
+    content: url('./Assignment_ Stunning-Project/tick-gray.png');
+    margin-right: 20px;
+}
+
+.section3 .container4 .container_text4:hover::before {
+    content: url('./Assignment_ Stunning-Project/tick-blue.png');
+
+}
+
+
+.section3 .container4 .container_text4::after {
+    content: url('./Assignment_ Stunning-Project/user-red.png');
+    margin-left: 60px;
+}
+
+
+.container_text4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container_btn4 {
+    height: 15px;
+    width: 30px;
+    background-color: #FFE4A0;
+    border-width: 0px;
+    border-radius: 10px;
+}
